@@ -13,9 +13,9 @@ env = gym.make('MountainCar-v0')
 env.reset()
 # values >200 are useless because in gym, mountain car returns true after 200 actions, or if reached uphill
 goal_steps = 200
-score_requirement = -200
-intial_games = 20 # 1000
-play_games = 10
+score_requirement = -196
+intial_games = 5000 # previous trained by 7000
+play_games = 20
 training_epoch = 15
 
 
